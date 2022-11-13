@@ -1,0 +1,79 @@
+/*==404_page==*/
+
+body {
+    font-size: large;
+    text-align: center;
+background: linear-gradient(90deg, rgb(141, 138, 208) 20%, rgb(127, 236, 232) 95%);
+}
+
+.center {
+    text-decoration: none !important;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(230, 216, 216);
+}
+
+.center li {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+.center li:hover {
+    /* width: 90px; */
+    
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    margin: -4px 4px;
+    /* border: 2px solid blue; */
+    border-radius: 6px;
+}
+
+.rght {
+    margin: -5px 2px;
+    /* padding: 0px; */
+    width: 130px;
+    height: 35px;
+    transition: width 2s;
+    overflow: hidden;
+    background-color: antiquewhite;
+    text-transform: capitalize;
+    position: relative;
+    left: 365px;
+
+}
+
+.rght li {
+    text-decoration: none;
+    color: rgb(137, 194, 221);
+    color: rgb(137, 194, 221);
+    float: right;
+    margin: 4px;
+    padding: 1px -1px;
+}
+
+.rght:hover {
+
+    width: 150px;
+    overflow: hidden;
+    /* transition: 0px; */
+    border: 2px solid #d680b1;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    ;
+}
+
+.zero:link {
+    text-decoration: none;
+}
+
+.zero:hover {
+   font-size: larger;
+    text-decoration:overline;
+    text-decoration:underline;
+    
+}
